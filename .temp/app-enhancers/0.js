@@ -1,0 +1,1 @@
+export { default } from "C:\\Users\\mayer\\Documents\\Projects\\newallet\\merchant\\docs\\src\\.vuepress\\enhanceApp.js"
