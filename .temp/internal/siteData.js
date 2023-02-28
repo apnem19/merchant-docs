@@ -30,6 +30,28 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Уведомление о платеже",
+      "frontmatter": {
+        "title": "Уведомление о платеже"
+      },
+      "regularPath": "/api/callback.html",
+      "relativePath": "api/callback.md",
+      "key": "v-c6b0ed64",
+      "path": "/api/callback.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Общая информация",
+          "slug": "общая-информация"
+        },
+        {
+          "level": 2,
+          "title": "Что придёт?",
+          "slug": "что-придет"
+        }
+      ]
+    },
+    {
       "title": "Создание платежа",
       "frontmatter": {
         "title": "Создание платежа"
@@ -53,6 +75,50 @@ export const siteData = {
           "level": 2,
           "title": "Пример на NodeJS",
           "slug": "пример-на-nodejs"
+        }
+      ]
+    },
+    {
+      "title": "Удаление платежа",
+      "frontmatter": {
+        "title": "Удаление платежа"
+      },
+      "regularPath": "/api/delete_payment.html",
+      "relativePath": "api/delete_payment.md",
+      "key": "v-36b380f4",
+      "path": "/api/delete_payment.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Общий API-reference",
+          "slug": "общии-api-reference"
+        },
+        {
+          "level": 2,
+          "title": "Пример на PHP",
+          "slug": "пример-на-php"
+        },
+        {
+          "level": 2,
+          "title": "Пример на NodeJS",
+          "slug": "пример-на-nodejs"
+        }
+      ]
+    },
+    {
+      "title": "Получение информации о платеже",
+      "frontmatter": {
+        "title": "Получение информации о платеже"
+      },
+      "regularPath": "/api/get_payment.html",
+      "relativePath": "api/get_payment.md",
+      "key": "v-3b6a88d4",
+      "path": "/api/get_payment.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Общий API-reference",
+          "slug": "общии-api-reference"
         }
       ]
     },
@@ -85,16 +151,11 @@ export const siteData = {
       "headers": [
         {
           "level": 2,
-          "title": "Формирование подписи запроса",
-          "slug": "формирование-подписи-запроса"
-        },
-        {
-          "level": 3,
           "title": "Запрос на создание платежа",
           "slug": "запрос-на-создание-платежа"
         },
         {
-          "level": 3,
+          "level": 2,
           "title": "Проверка подписи результата платежа",
           "slug": "проверка-подписи-результата-платежа"
         }
@@ -144,7 +205,10 @@ export const siteData = {
           "children": [
             "",
             "sign.md",
-            "create_payment.md"
+            "callback.md",
+            "create_payment.md",
+            "delete_payment.md",
+            "get_payment.md"
           ]
         }
       ]

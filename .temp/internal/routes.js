@@ -9,11 +9,35 @@ import GlobalLayout from "C:\\Users\\mayer\\Documents\\Projects\\newallet\\merch
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-c6b0ed64",
+    path: "/api/callback.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c6b0ed64").then(next)
+    },
+  },
+  {
     name: "v-f5ce275c",
     path: "/api/create_payment.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-f5ce275c").then(next)
+    },
+  },
+  {
+    name: "v-36b380f4",
+    path: "/api/delete_payment.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-36b380f4").then(next)
+    },
+  },
+  {
+    name: "v-3b6a88d4",
+    path: "/api/get_payment.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b6a88d4").then(next)
     },
   },
   {
