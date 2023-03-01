@@ -4,7 +4,7 @@ title: Создание платежа
 
 ## Общий API-reference
 
-- Ссылка на метод: `https://api.nebank.co/api/payments`
+- Ссылка на метод: `https://api.nebank.co/payments`
 - Метод: `POST`
 - Тип контента: `application/json`
 
@@ -86,7 +86,7 @@ $body = json_encode([
 ]);
 
 // Отправляем запрос
-$curl = curl_init('https://api.nebank.co/api/payments');
+$curl = curl_init('https://api.nebank.co/payments');
 curl_setopt($curl, CURLOPT_HEADER, false);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_HTTPHEADER, ['Content-type: application/json']);

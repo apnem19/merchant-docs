@@ -4,7 +4,7 @@ title: Получение информации о платеже
 
 ## Общий API-reference
 
-- Ссылка на метод: `https://api.nebank.co/api/payments/{id}`
+- Ссылка на метод: `https://api.nebank.co/payments/{id}`
 - Метод: `GET`
 - Тип контента: `application/json`
 
