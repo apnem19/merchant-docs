@@ -4,7 +4,7 @@ title: Удаление платежа
 
 ## Общий API-reference
 
-- Ссылка на метод: `https://m-api.nebank.co/api/payments`
+- Ссылка на метод: `https://api.nebank.co/api/payments`
 - Метод: `DELETE`
 - Тип контента: `application/json`
 

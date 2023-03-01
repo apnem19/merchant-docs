@@ -30,28 +30,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Уведомление о платеже",
-      "frontmatter": {
-        "title": "Уведомление о платеже"
-      },
-      "regularPath": "/api/callback.html",
-      "relativePath": "api/callback.md",
-      "key": "v-c6b0ed64",
-      "path": "/api/callback.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Общая информация",
-          "slug": "общая-информация"
-        },
-        {
-          "level": 2,
-          "title": "Что придёт?",
-          "slug": "что-придет"
-        }
-      ]
-    },
-    {
       "title": "Создание платежа",
       "frontmatter": {
         "title": "Создание платежа"
@@ -106,6 +84,28 @@ export const siteData = {
       ]
     },
     {
+      "title": "Уведомление о платеже",
+      "frontmatter": {
+        "title": "Уведомление о платеже"
+      },
+      "regularPath": "/api/callback.html",
+      "relativePath": "api/callback.md",
+      "key": "v-c6b0ed64",
+      "path": "/api/callback.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Общая информация",
+          "slug": "общая-информация"
+        },
+        {
+          "level": 2,
+          "title": "Что придёт?",
+          "slug": "что-придет"
+        }
+      ]
+    },
+    {
       "title": "Получение информации о платеже",
       "frontmatter": {
         "title": "Получение информации о платеже"
@@ -119,6 +119,16 @@ export const siteData = {
           "level": 2,
           "title": "Общий API-reference",
           "slug": "общии-api-reference"
+        },
+        {
+          "level": 2,
+          "title": "Пример на PHP",
+          "slug": "пример-на-php"
+        },
+        {
+          "level": 2,
+          "title": "Пример на NodeJS",
+          "slug": "пример-на-nodejs"
         }
       ]
     },
@@ -175,6 +185,23 @@ export const siteData = {
       "relativePath": "index.md",
       "key": "v-8e4b0c48",
       "path": "/"
+    },
+    {
+      "title": "Модули",
+      "frontmatter": {
+        "title": "Модули"
+      },
+      "regularPath": "/modules/",
+      "relativePath": "modules/index.md",
+      "key": "v-2f3d5e4f",
+      "path": "/modules/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Общая информация",
+          "slug": "общая-информация"
+        }
+      ]
     }
   ],
   "themeConfig": {
@@ -209,6 +236,15 @@ export const siteData = {
             "create_payment.md",
             "delete_payment.md",
             "get_payment.md"
+          ]
+        }
+      ],
+      "/modules/": [
+        {
+          "title": "Готовые модули",
+          "collapsable": false,
+          "children": [
+            ""
           ]
         }
       ]

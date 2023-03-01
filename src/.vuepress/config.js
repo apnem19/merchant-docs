@@ -43,6 +43,15 @@ module.exports = {
           ]
         }
       ],
+      '/modules/': [
+        {
+          title: 'Готовые модули',
+          collapsable: false,
+          children: [
+            '',
+          ]
+        }
+      ],
     }
   },
 
